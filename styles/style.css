@@ -1,1 +1,55 @@
+.header {
+    display: grid;    
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    grid-template-columns: 1fr 148px 1fr;
+    height: 293px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: #c476ff;
+}
+
+.header_menu-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 133px;
+    gap: 8px;
+    list-style: circle;
+    justify-content: space-evenly;
+    align-content: center;
+    line-height: 100%;
+}
+
+.header_menu-item_active {
+    list-style: none;
+}
+
+.header_logo-image {
+    display: block;
+    width: 148px;
+    margin-top: 92px;
+    justify-content: center;
+    align-content: center;
+}
+
+.header_menu-adress_list {
+    display: grid;
+    flex-direction: column;
+    margin-top: 95px;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+.header_menu-item {
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
 
