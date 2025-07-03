@@ -1,1 +1,1 @@
-https://github.com/ClimChuGun/ono-tebe-nado
+https://github.com/ClimChuGun/ono-tebe-nado-fd
