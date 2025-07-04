@@ -26,6 +26,7 @@
 .header_menu-list {
   display: flex;
   justify-content: start;
+  list-style-type: circle;
   gap: 33px;
   padding-top: 20px;
   padding-bottom: 25px;
@@ -67,6 +68,7 @@
   background: url(../images/cover.jpg) center no-repeat;
   background-size: cover;
   padding: 165px 50px 50px;
+  z-index: -2;
 }
 
 .cover-title {
@@ -76,7 +78,7 @@
   font-size: 100px;
   font-style: normal;
   line-height: 115%;
-  letter-spacing: 30px;
+  letter-spacing: 30%;
   text-transform: uppercase;
   z-index: 1;
 }
@@ -157,6 +159,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
   margin-top: 27px;
+  height: 596px;
   list-style-type: none;
   color: #ffffff;
   align-items: stretch;
@@ -176,17 +179,20 @@
 
 .card_type_film {
   background: url(../images/card-lot-01.jpg) lightgray 50% / cover no-repeat;
+  z-index: -1;
 }
 
 .card_type_book {
   background: url(../images/card-lot-02.jpg) lightgray 50% / cover no-repeat;
+  z-index: -1;
 }
 
 .card_type_picture {
   background: url(../images/card-lot-03.jpg) lightgray 50% / cover no-repeat;
+  z-index: -1;
 }
 
-.card__title {
+.card_title {
   color: #fff;
   font-size: 22px;
   font-weight: 700;
@@ -203,7 +209,7 @@
   text-decoration: none;
 }
 
-.card__text {
+.card_text {
   color: #fff;
   font-size: 20px;
   font-style: normal;
@@ -235,7 +241,8 @@
 .about {
   display: flex;
   margin: auto;
-  padding: 155px 0px 0px 0px;
+  padding: 155px 24px 0px 24px;
+  margin: 35px 0 0 47px;
 }
 
 .about__logo {
