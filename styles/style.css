@@ -17,8 +17,8 @@
 
 .header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 92px 50px;
+  grid-template-columns: 1fr 135px 1fr;
+  padding: 112px 50px;
   align-items: center;
   justify-items: end;
 }
@@ -27,11 +27,14 @@
   display: flex;
   justify-content: start;
   list-style-type: circle;
-  gap: 33px;
+  gap: 32px;
   padding-top: 20px;
   padding-bottom: 25px;
   margin-right: 45px;
-  min-width: 390px;
+}
+
+.header_menu-link {
+  font-size: 18px;
 }
 
 .header_menu-item_active {
@@ -67,12 +70,14 @@
   position: relative;
   background: url(../images/cover.jpg) center no-repeat;
   background-size: cover;
-  padding: 165px 50px 50px;
-  z-index: -2;
+  padding: 140px 50px 50px;
 }
 
 .cover-title {
   position: relative;
+  display: flex;
+	flex-direction: column;
+	margin: 0 0 121px 0;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -87,7 +92,6 @@
 }
 
 .cover__title > span:last-child {
-  margin-bottom: 0px;
 }
 
 .accent-span {
@@ -158,37 +162,33 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
   margin-top: 27px;
-  height: 596px;
   list-style-type: none;
   color: #ffffff;
   align-items: stretch;
 }
 
 .card_type {
-  padding: 48px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 51px 40px 48px 40px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .card_type_film {
-  background: url(../images/card-lot-01.jpg) lightgray 50% / cover no-repeat;
-  z-index: -1;
+  background: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background: url(../images/card-lot-02.jpg) lightgray 50% / cover no-repeat;
-  z-index: -1;
+  background: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background: url(../images/card-lot-03.jpg) lightgray 50% / cover no-repeat;
-  z-index: -1;
+  background: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -200,6 +200,7 @@
   text-decoration-line: underline;
   text-transform: uppercase;
   text-underline-offset: 3px;
+  padding-bottom: 34px;
   z-index: 2;
 }
 
@@ -276,7 +277,6 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .about__text {
