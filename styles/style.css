@@ -28,7 +28,7 @@
   justify-content: start;
   list-style-type: circle;
   gap: 32px;
-  padding-top: 20px;
+  padding-top: 18px;
   padding-bottom: 25px;
   margin-right: 45px;
 }
@@ -61,7 +61,7 @@
   font-weight: 400;
   line-height: 135%;
   max-width: 240px;
-  text-underline-offset: 4px;
+  text-underline-offset: 1px;
 }
 
 /* Cover */
@@ -77,7 +77,7 @@
   position: relative;
   display: flex;
 	flex-direction: column;
-	margin: 0 0 121px 0;
+	margin: 0 0 105px 0;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -115,7 +115,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 108px;
+  margin-top: 50px;
 }
 
 .description_text {
@@ -241,7 +241,7 @@
 .about {
   display: flex;
   margin: auto;
-  padding: 155px 24px 0px 24px;
+  padding: 115px 24px 0px 24px;
   margin: 35px 0 0 47px;
 }
 
