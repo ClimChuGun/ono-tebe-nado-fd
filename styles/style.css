@@ -18,7 +18,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 135px 1fr;
-  padding: 112px 50px;
+  padding: 93px 50px 90px;
   align-items: center;
   justify-items: end;
 }
@@ -27,10 +27,10 @@
   display: flex;
   justify-content: start;
   list-style-type: circle;
-  gap: 32px;
-  padding-top: 18px;
-  padding-bottom: 25px;
-  margin-right: 45px;
+  gap: 33.5px;
+  padding-top: 21px;
+  padding-bottom: 28px;
+  margin-right: 43px;
 }
 
 .header_menu-link {
@@ -59,7 +59,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 135%;
+  line-height: 138%;
   max-width: 240px;
   text-underline-offset: 1px;
 }
@@ -70,19 +70,19 @@
   position: relative;
   background: url(../images/cover.jpg) center no-repeat;
   background-size: cover;
-  padding: 140px 50px 50px;
+  padding: 153px 50px 50px;
 }
 
 .cover-title {
   position: relative;
   display: flex;
 	flex-direction: column;
-	margin: 0 0 105px 0;
+	margin: 0 0 94px 0;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  line-height: 130%;
+  line-height: 137%;
   text-transform: uppercase;
   z-index: 1;
 }
@@ -123,8 +123,8 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 127.273%;
-  word-spacing: 18px;
+  line-height: 128%;
+  word-spacing: 18.5px;
   text-transform: uppercase;
   margin-right: 78px;
 }
@@ -145,7 +145,7 @@
 /*lots*/
 
 .lots {
-  padding: 178px 22px 0px 22px;
+  padding: 179px 22px 0px 24px;
 }
 
 .lots_title {
@@ -172,7 +172,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 51px 40px 48px 40px;
+	padding: 48px 40px 48px 40px;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -242,7 +242,7 @@
   display: flex;
   margin: auto;
   padding: 115px 24px 0px 24px;
-  margin: 35px 0 0 47px;
+  margin: 40px 0 0 47px;
 }
 
 .about__logo {
@@ -289,6 +289,7 @@
   flex-direction: column;
   gap: 25px;
   max-width: 690px;
+  line-height: 24px;
 }
 
 /* Footer */
